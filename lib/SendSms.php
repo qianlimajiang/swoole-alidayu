@@ -15,7 +15,7 @@ use Aliyun\Api\Sms\Request\V20170525\QuerySendDetailsRequest;
  * 这是发送到短信的应用程序
  */
 
-class SendSmd
+class SendSms
 {
     protected $accessKeyId;
     protected $accessKeySecret;
