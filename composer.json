@@ -1,25 +1,17 @@
 {
-    "name": "liujiang/aliyun-dysms-swoole",
+    "name": "ljj/swoole-alidayu",
     "description": "阿里云短信swoole协程版",
-    "keywords": [
-        "aliyun",
-        "SMS",
-        "sdk",
-        "swoole"
-    ],
-    "type": "library",
-    "license": "Apache-2.0",
-    "homepage": "https://www.aliyun.com/product/sms",
+    "license": "MIT",
     "authors": [
         {
-            "name": "刘江江",
+            "name": "二狗子",
             "email": "469028589@qq.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.2.0"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Aliyun\\": "lib/"
