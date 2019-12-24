@@ -9,8 +9,6 @@ use Aliyun\Api\Sms\Request\V20170525\SendSmsRequest;
 use Aliyun\Api\Sms\Request\V20170525\SendBatchSmsRequest;
 use Aliyun\Api\Sms\Request\V20170525\QuerySendDetailsRequest;
 
-
-
 /**
  * Class SendSms
  *
@@ -36,13 +34,13 @@ class SendSmd
         Config::load();
         $this->accessKeyId = $config['accessKeyId'];
         $this->accessKeySecret = $config['accessKeySecret'];
-        if(isset($config['region'])){
+        if (isset($config['region'])) {
             $this->region = $config['region'];
         }
-        if(isset($config['endPointName'])){
+        if (isset($config['endPointName'])) {
             $this->endPointName = $config['endPointName'];
         }
-        if(isset($config['domain'])){
+        if (isset($config['domain'])) {
             $this->domain;
         }
     }
@@ -116,5 +114,4 @@ class SendSmd
 
         return $acsResponse;
     }
-
 }
